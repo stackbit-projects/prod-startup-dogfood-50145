@@ -6,10 +6,7 @@ sections:
     elementId: homepage-hero-1
     colors: colors-a
     title: I'm Rodik Hanukaev
-    text: >
-      One platform, one community, getting to the bottom line of everything
-      employment.  Figure out your benefits, practice for interviews, get
-      mentored, help peers, get helped in return.
+    text: "I'm a Software Engineer, helping build\_[stackbit.com](https://www.stackbit.com/). I occasionally work on other things, and in rare occasions, write about stuff.\n\nThis is where I keep some of my experimentes and projects.\n"
     actions:
       - type: Button
         label: Sign up
