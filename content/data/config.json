@@ -28,7 +28,7 @@
             {
                 "type": "Link",
                 "label": "Journal",
-                "altText": "Blog",
+                "altText": "Journal",
                 "url": "/blog"
             }
         ],
