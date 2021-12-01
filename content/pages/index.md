@@ -18,7 +18,7 @@ sections:
       - altText: Twitter
         url: 'https://twitter.com/rodiktries'
         showIcon: false
-        icon: arrowRight
+        icon: twitter
         iconPosition: right
         elementId: ''
         type: Link
