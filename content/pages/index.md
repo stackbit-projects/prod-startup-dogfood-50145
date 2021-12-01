@@ -14,6 +14,7 @@ sections:
         style: secondary
         elementId: ''
         type: Button
+        url: 'https://twitter.com/rodiktries'
     styles:
       self:
         height: auto
