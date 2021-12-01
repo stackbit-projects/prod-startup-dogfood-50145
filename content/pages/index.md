@@ -9,7 +9,7 @@ sections:
     text: "I'm a Software Engineer, helping build\_[stackbit.com](https://www.stackbit.com/). I occasionally work on other things, and in rare occasions, write about stuff.\n\nThis is where I keep some of my experimentes and projects.\n"
     actions:
       - showIcon: false
-        icon: arrowRight
+        icon: twitter
         iconPosition: right
         style: secondary
         elementId: ''
