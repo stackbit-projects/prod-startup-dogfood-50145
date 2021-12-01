@@ -13,10 +13,6 @@ sections:
         url: 'https://www.stackbit.com/'
         style: primary
         elementId: hero-main-button
-    media:
-      type: ImageBlock
-      altText: Image alt text
-      caption: Image caption
     styles:
       self:
         height: auto
