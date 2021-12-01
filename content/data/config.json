@@ -21,12 +21,6 @@
             },
             {
                 "type": "Link",
-                "label": "FAQ",
-                "url": "/faq",
-                "altText": ""
-            },
-            {
-                "type": "Link",
                 "label": "Journal",
                 "altText": "Journal",
                 "url": "/blog"
