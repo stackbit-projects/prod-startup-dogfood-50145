@@ -27,7 +27,7 @@
             },
             {
                 "type": "Link",
-                "label": "Blog",
+                "label": "Journal",
                 "altText": "Blog",
                 "url": "/blog"
             }
