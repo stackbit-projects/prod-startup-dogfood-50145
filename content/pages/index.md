@@ -11,7 +11,7 @@ sections:
       - showIcon: true
         icon: twitter
         iconPosition: right
-        style: secondary
+        style: primary
         elementId: ''
         type: Button
         url: 'https://twitter.com/rodiktries'
