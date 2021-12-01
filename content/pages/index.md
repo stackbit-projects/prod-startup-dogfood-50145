@@ -17,7 +17,7 @@ sections:
         url: 'https://twitter.com/rodiktries'
         altText: Twitter
       - altText: Linkedin
-        url: /
+        url: 'https://www.linkedin.com/in/rodikh/'
         showIcon: true
         icon: linkedin
         iconPosition: right
