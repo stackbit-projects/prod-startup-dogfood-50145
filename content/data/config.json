@@ -5,7 +5,7 @@
         "primaryColors": "colors-a",
         "secondaryColors": "colors-f",
         "title": "Startup.io",
-        "isTitleVisible": false,
+        "isTitleVisible": true,
         "primaryLinks": [
             {
                 "type": "Link",
