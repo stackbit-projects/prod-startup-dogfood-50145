@@ -5,7 +5,7 @@ sections:
   - type: HeroSection
     elementId: homepage-hero-1
     colors: colors-a
-    title: 'Love where you work, because work loves you'
+    title: I'm Rodik Hanukaev
     text: >
       One platform, one community, getting to the bottom line of everything
       employment.  Figure out your benefits, practice for interviews, get
@@ -134,7 +134,7 @@ sections:
         caption: ZCOOL
     spacing: 3
     columns: 7
-    aspectRatio: 'auto'
+    aspectRatio: auto
     showCaption: false
     enableHover: false
     styles:
