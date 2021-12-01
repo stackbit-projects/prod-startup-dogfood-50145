@@ -16,8 +16,7 @@ sections:
         type: Button
         url: 'https://twitter.com/rodiktries'
         altText: Twitter
-      - label: Learn more
-        altText: Learn more
+      - altText: Linkedin
         url: /
         showIcon: true
         icon: linkedin
