@@ -20,7 +20,7 @@ sections:
         altText: Learn more
         url: /
         showIcon: false
-        icon: arrowRight
+        icon: linkedin
         iconPosition: right
         elementId: ''
         type: Link
