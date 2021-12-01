@@ -11,7 +11,7 @@ sections:
       - showIcon: true
         icon: twitter
         iconPosition: right
-        style: primary
+        style: secondary
         elementId: ''
         type: Button
     styles:
