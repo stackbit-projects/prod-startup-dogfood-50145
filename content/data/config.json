@@ -2,7 +2,7 @@
     "type": "Config",
     "header": {
         "headerVariant": "variant-c",
-        "primaryColors": "colors-b",
+        "primaryColors": "colors-a",
         "secondaryColors": "colors-f",
         "title": "rodikh",
         "isTitleVisible": true,
