@@ -15,7 +15,7 @@ sections:
         iconPosition: right
         elementId: ''
         type: Link
-      - altText: Learn more
+      - altText: Twitter
         url: /
         showIcon: false
         icon: arrowRight
