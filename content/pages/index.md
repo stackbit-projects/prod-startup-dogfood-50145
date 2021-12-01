@@ -8,14 +8,6 @@ sections:
     title: I'm Rodik Hanukaev
     text: "I'm a Software Engineer, helping build\_[stackbit.com](https://www.stackbit.com/). I occasionally work on other things, and in rare occasions, write about stuff.\n\nThis is where I keep some of my experimentes and projects.\n"
     actions:
-      - showIcon: true
-        icon: twitter
-        iconPosition: right
-        style: secondary
-        elementId: ''
-        type: Button
-        url: 'https://twitter.com/rodiktries'
-        altText: Twitter
       - altText: Linkedin
         url: 'https://www.linkedin.com/in/rodikh/'
         showIcon: true
