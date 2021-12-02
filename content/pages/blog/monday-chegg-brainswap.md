@@ -4,6 +4,10 @@ excerpt: >-
   Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan
   sapien blandit ac amet faucibus aliquet placerat commodo.
 date: '2018-06-24'
+featuredImage:
+  type: ImageBlock
+  url: /images/post-4.jpg
+  altText: Post Image
 thumb_image: images/post-6-thumb.jpg
 thumb_image_alt: White desk lamp beside green plant
 image_alt: White desk lamp beside green plant
