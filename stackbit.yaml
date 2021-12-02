@@ -23,7 +23,7 @@ contentModels:
     newFilePath: 'blog/{slug}.md'
   ProjectLayout:
     isPage: true
-    urlPath: '/project/{slug}'
-    newFilePath: 'project/{slug}.md'
+    urlPath: '/projects/{slug}'
+    newFilePath: 'projects/{slug}.md'
   Person:
     newFilePath: 'team/{slug}.json'
