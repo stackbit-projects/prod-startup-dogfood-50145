@@ -84,8 +84,8 @@ export default class CanvasSection extends React.Component {
     }
 
     render() {
-        const section = _.get(this.props, 'section');
         console.log("render canvas", section)
+        const section = _.get(this.props, 'section');
 
         return (
             <div className="embed-block container container--md">
