@@ -62,18 +62,3 @@ models:
         label: Content
         description: The text content of the section
   canvas_section:
-    type: object
-    label: Canvas Section
-    fields:
-      - type: object
-        name: options
-        label: Options
-        fields:
-        - type: text
-          name: demo_configuration
-          label: Demo Configuration
-          default: "{}"
-      - type: enum
-        name: demo_type
-        label: Demo Type
-        options: [particle-lines, particles, forces, quadtree]
