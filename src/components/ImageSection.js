@@ -17,7 +17,7 @@ export default class ImageSection extends React.Component {
                     'container--lg': width === 'wide'
                 })}
             >
-                {image && <img src={withPrefix(image)} alt={imageAlt} />}
+                {image && <img src={image} alt={imageAlt} />}
                 {caption && (
                     <figcaption className="image-block__caption">
                         {caption}
