@@ -3,6 +3,9 @@ import { registerComponents } from '@stackbit/components';
 import { componentsMap } from '@stackbit/components/dist/components-map';
 
 import ProjectLayout from '../layouts/ProjectLayout'
+import ProjectLayout from '../layouts/ProjectLayout'
+import ProjectLayout from '../layouts/ProjectLayout'
+import ProjectLayout from '../layouts/ProjectLayout'
 
 registerComponents({
     // Register all Stackbit components
