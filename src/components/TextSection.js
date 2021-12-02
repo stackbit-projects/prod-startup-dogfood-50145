@@ -10,7 +10,7 @@ export default class TextSection extends React.Component {
 
         return (
             <div className="text-block container container--md">
-                {markdownify(content)}
+                {Markdown(content)}
             </div>
         );
     }
