@@ -51,57 +51,6 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
-  - elementId: ''
-    colors: colors-f
-    title: Where did everyone go?
-    text: >
-      Learn how top tech companies have learned working remote using our
-      product.
-    actions:
-      - type: Button
-        label: Sign Up
-        url: /
-        style: secondary
-      - type: Link
-        label: Watch Video
-        url: /
-        showIcon: true
-        icon: arrowRight
-    styles:
-      self:
-        height: auto
-        width: wide
-        margin:
-          - mt-20
-          - mb-20
-          - ml-20
-          - mr-20
-        padding:
-          - pt-28
-          - pb-28
-          - pl-4
-          - pr-4
-        alignItems: center
-        justifyContent: center
-        flexDirection: row
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
-      text:
-        textAlign: left
-      actions:
-        justifyContent: flex-start
-    type: HeroSection
-    media:
-      url: /images/hero-3.jpg
-      altText: Where did everyone go?
-      caption: Team meeting
-      elementId: ''
-      styles:
-        self:
-          opacity: 100
-      type: ImageBlock
   - colors: colors-h
     elementId: ''
     images:
