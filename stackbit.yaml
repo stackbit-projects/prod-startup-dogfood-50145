@@ -24,6 +24,6 @@ contentModels:
   ProjectLayout:
     isPage: true
     urlPath: '/project/{slug}'
-    newFilePath: 'blog/{slug}.md'
+    newFilePath: 'project/{slug}.md'
   Person:
     newFilePath: 'team/{slug}.json'
