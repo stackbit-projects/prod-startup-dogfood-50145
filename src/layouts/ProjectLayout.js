@@ -4,7 +4,7 @@ import Markdown from 'markdown-to-jsx';
 import { getBaseLayoutComponent } from '../../utils/base-layout';
 import { getComponent } from '../../components-registry';
 
-export default function PostLayout(props) {
+export default function ProjectLayout(props) {
     const { page, site } = props;
     const BaseLayout = getBaseLayoutComponent(page.baseLayout, site.baseLayout);
     const sections = page.bottomSections || [];
