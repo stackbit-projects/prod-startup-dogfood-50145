@@ -8,7 +8,6 @@ featuredImage:
   type: ImageBlock
   url: /images/post-4.jpg
   altText: Post Image
-image_alt: White desk lamp beside green plant
 seo:
   title: The Elements of Great Workplace Design
   description: >-
