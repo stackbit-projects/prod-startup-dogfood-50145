@@ -36,20 +36,6 @@ export default function ProjectLayout(props) {
                                 </div>
                             );
                         })}
-
-                        {_.map(page.sections, (section, index) => {
-                            const sectionType = _.get(section, 'type');
-                            const component = _.upperFirst(_.camelCase(sectionType));
-                            if (!component) {
-                                throw new Error(`page section does not have the 'type' property, page: ${projectUrl}`);
-                            }
-                            const Component = components[component];
-                            if (!Component) {
-                                throw new Error(`no component matching the page section's type: ${sectionType}`);
-                            }
-                            return <Component key={index} section={section} data={data} />;
-                        })}
-
                     </div>
                 </article>
                 {bottomSections.length > 0 && (
