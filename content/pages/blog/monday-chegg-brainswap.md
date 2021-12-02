@@ -6,7 +6,7 @@ excerpt: >-
 date: '2018-06-24'
 featuredImage:
   type: ImageBlock
-  url: /images/post-4.jpg
+  url: /images/post-6.jpg
   altText: Post Image
 seo:
   title: The Elements of Great Workplace Design
