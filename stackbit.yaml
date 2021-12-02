@@ -21,5 +21,9 @@ contentModels:
     isPage: true
     urlPath: '/blog/{slug}'
     newFilePath: 'blog/{slug}.md'
+  PostLayout:
+    isPage: true
+    urlPath: '/blog/{slug}'
+    newFilePath: 'blog/{slug}.md'
   Person:
     newFilePath: 'team/{slug}.json'
