@@ -21,7 +21,7 @@ contentModels:
     isPage: true
     urlPath: '/blog/{slug}'
     newFilePath: 'blog/{slug}.md'
-  PostLayout:
+  ProjectLayout:
     isPage: true
     urlPath: '/blog/{slug}'
     newFilePath: 'blog/{slug}.md'
