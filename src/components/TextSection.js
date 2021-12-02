@@ -1,7 +1,7 @@
 import React from 'react';
 import _ from 'lodash';
 
-import { markdownify } from '../utils';
+import Markdown from 'markdown-to-jsx';
 
 export default class TextSection extends React.Component {
     render() {
