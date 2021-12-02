@@ -12,8 +12,8 @@ registerComponents({
     // or register your own dynamic component.
     ProjectLayout: ProjectLayout,
     CanvasSection: CanvasSection,
-    TextSection: ProjectLayout,
-    ProjectLayout: ProjectLayout,
+    TextSection: TextSection,
+    ImageSection: ImageSection,
 });
 
 /**
