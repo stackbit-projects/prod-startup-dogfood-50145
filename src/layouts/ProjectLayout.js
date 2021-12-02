@@ -7,7 +7,7 @@ import { getComponent } from '../../components-registry';
 export default function ProjectLayout(props) {
     const { page, site } = props;
     const BaseLayout = getBaseLayoutComponent(page.baseLayout, site.baseLayout);
-    const sections = page.sections || [];
+    const sections = page.bottomSections || [];
     const dateTimeAttr = dayjs(page.date).format('YYYY-MM-DD HH:mm:ss');
     const formattedDate = dayjs(page.date).format('MMMM D, YYYY');
 
@@ -25,7 +25,7 @@ export default function ProjectLayout(props) {
                             {page.title && <h1 data-sb-field-path="title">{page.title}</h1>}
                             {page.author && postAuthor(page.author)}
                         </header>
-                        {sections.map((section, index) => {
+                            {sections.map((section, index) => {
                             const Component = getComponent(section.type);
                             if (!Component) {
                                 throw new Error(`no component matching the page section's type: ${section.type}`);
