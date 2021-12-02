@@ -29,7 +29,7 @@
         "sourcebit-target-next": "^0.7.1",
         "tailwindcss": "^2.2.4",
         "@rodikh/particle-lines": "*",
-        "@rodikh/particle-lines"
+        "@rodikh/particles": "*"
     },
     "devDependencies": {
         "@next/bundle-analyzer": "^11.1.2",
