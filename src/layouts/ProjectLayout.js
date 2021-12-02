@@ -30,9 +30,10 @@ export default function ProjectLayout(props) {
                             if (!Component) {
                                 throw new Error(`no component matching the page section's type: ${section.type}`);
                             }
+                            const data = _.get(this.props, 'data');
                             return (
                                 <div key={index} data-sb-field-path={`sections.${index}`}>
-                                    <Component {...section} section={section} data={data}  />
+                                    <Component {...section} section={section} data={data} />
                                 </div>
                             );
                         })}
