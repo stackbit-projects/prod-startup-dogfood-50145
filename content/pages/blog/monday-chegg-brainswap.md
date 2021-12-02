@@ -39,7 +39,7 @@ seo:
     - name: 'twitter:image'
       value: images/post-6.jpg
       relativeUrl: true
-layout: post
+layout: PostLayout
 ---
 > During a couple of weeks in April 2018, [Chegg](http://www.chegg.com/) collaborated with [Monday](http://www.monday.com/) on a unique project, with the aim of sharing cultural and professional expertise with each other, by way of exchanging an employee to work full time in his counterpart’s shoes, to learn about engineering processes and figure out what each company does right, and where it can improve.
 >
