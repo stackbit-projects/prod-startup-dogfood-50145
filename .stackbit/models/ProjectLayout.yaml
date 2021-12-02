@@ -6,7 +6,7 @@ folder: projects
 hideContent: true
 name: ProjectLayout
 label: Project
-layout: PostLayout
+layout: ProjectLayout
 thumbnail: https://assets.stackbit.com/components/models/thumbnails/default.png
 fields:
   - type: string
