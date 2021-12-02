@@ -11,8 +11,8 @@ registerComponents({
     // Override any static or dynamic component,
     // or register your own dynamic component.
     ProjectLayout: ProjectLayout,
-    CanvasSection: ProjectLayout,
-    ProjectLayout: ProjectLayout,
+    CanvasSection: CanvasSection,
+    TextSection: ProjectLayout,
     ProjectLayout: ProjectLayout,
 });
 
