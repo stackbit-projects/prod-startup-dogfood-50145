@@ -71,3 +71,28 @@ models:
         name: seo
         models:
           - stackbit_page_meta
+  image_section:
+    type: object
+    label: Image Section
+    fields:
+      - type: image
+        name: image
+        label: Image
+        description: The image of the section
+      - type: string
+        name: image_alt
+        label: Image Alt Text
+        description: The alt text of the section image
+      - type: string
+        name: caption
+        label: Caption
+        description: The caption of the image
+      - type: enum
+        name: width
+        label: Width
+        description: The width of the image
+        options:
+          - regular
+          - wide
+        default: regular
+        required: true
