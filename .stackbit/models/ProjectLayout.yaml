@@ -1,0 +1,42 @@
+    type: page
+    urlPath: '/projects/{slug}'
+    label: Project
+    layout: project
+    folder: projects
+    hideContent: true
+    fields:
+      - type: string
+        name: title
+        label: Title
+        description: The title of the project
+        required: true
+      - type: string
+        name: subtitle
+        label: Subtitle
+        description: The text shown just below the project title
+      - type: date
+        name: date
+        label: Date
+        required: true
+      - type: image
+        name: thumb_image
+        label: Thumbnail image
+        description: The image shown in the portfolio grid
+      - type: string
+        name: thumb_image_alt
+        label: Thumbnail image alt text
+        description: The alt text of the thumbnail image
+      - type: list
+        name: sections
+        label: Sections
+        description: Project sections
+        items:
+          type: model
+          models:
+            - image_section
+            - text_section
+            - canvas_section
+      - type: model
+        name: seo
+        models:
+          - stackbit_page_meta
