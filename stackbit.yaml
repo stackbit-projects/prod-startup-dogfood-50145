@@ -30,7 +30,7 @@ contentModels:
 models:
   project:
     type: page
-    urlPath: '/portfolio/{slug}'
+    urlPath: '/project/{slug}'
     label: Project
     layout: project
     folder: portfolio
