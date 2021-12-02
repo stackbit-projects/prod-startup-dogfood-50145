@@ -18,7 +18,7 @@ sections:
 
 
       It uses a Particle system I developed, which can utilize quadtree
-      datastructures for more performant collision detection.
+      datastructures for more performant collision detection. 
   - options:
       demo_configuration: '{}'
     type: CanvasSection
