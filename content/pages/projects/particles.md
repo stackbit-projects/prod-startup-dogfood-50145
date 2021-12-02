@@ -9,7 +9,7 @@ featuredImage:
 sections:
   - options:
       demo_configuration: '{"particle_count": 50}'
-    type: canvas_section
+    type: CanvasSection
     demo_type: particle-lines
   - type: text_section
     content: >
