@@ -35,9 +35,9 @@ fields:
     items:
       type: model
       models:
-        - image_section
-        - text_section
-        - canvas_section
+        - ImageSection
+        - TextSection
+        - CanvasSection
   - type: model
     name: seo
     models:
