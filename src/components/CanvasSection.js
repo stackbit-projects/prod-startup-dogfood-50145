@@ -84,7 +84,7 @@ export default class CanvasSection extends React.Component {
     }
 
     render() {
-        console.log("render canvas", section)
+        console.log("render canvas", this.props)
         const section = _.get(this.props, 'section');
 
         return (
