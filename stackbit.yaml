@@ -21,10 +21,6 @@ contentModels:
     isPage: true
     urlPath: '/blog/{slug}'
     newFilePath: 'blog/{slug}.md'
-  ProjectLayout:
-    isPage: true
-    urlPath: '/projects/{slug}'
-    newFilePath: 'projects/{slug}.md'
   Person:
     newFilePath: 'team/{slug}.json'
 models:
