@@ -4,8 +4,6 @@ import _ from 'lodash';
 import components, { Layout } from '../components/index';
 import { getPageUrl } from '../utils';
 
-import PortfolioItem from '../components/PortfolioItem';
-
 export default class Project extends React.Component {
     renderProjectNavLinks(project, index, projects, projectCount, currentProjectUrl) {
         const projectUrl = getPageUrl(project);
