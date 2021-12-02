@@ -25,6 +25,18 @@ export default function ProjectLayout(props) {
                             {page.title && <h1 data-sb-field-path="title">{page.title}</h1>}
                             {page.author && postAuthor(page.author)}
                         </header>
+                                                {sections.map((section, index) => {
+                            const Component = getComponent(section.type);
+                            if (!Component) {
+                                throw new Error(`no component matching the page section's type: ${section.type}`);
+                            }
+                            return (
+                                <div key={index} data-sb-field-path={`sections.${index}`}>
+                                    <Component {...section} />
+                                </div>
+                            );
+                        })}
+
                         {_.map(sections, (section, index) => {
                             const sectionType = _.get(section, 'type');
                             const component = _.upperFirst(_.camelCase(sectionType));
