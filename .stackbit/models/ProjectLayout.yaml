@@ -4,8 +4,8 @@ label: Project
 layout: project
 folder: projects
 hideContent: true
-name: PostLayout
-label: Post
+name: ProjectLayout
+label: Project
 layout: PostLayout
 thumbnail: https://assets.stackbit.com/components/models/thumbnails/default.png
 fields:
