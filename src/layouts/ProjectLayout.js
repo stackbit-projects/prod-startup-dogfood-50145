@@ -37,7 +37,7 @@ export default function ProjectLayout(props) {
                             );
                         })}
 
-                        {_.map(sections, (section, index) => {
+                        {_.map(page.sections, (section, index) => {
                             const sectionType = _.get(section, 'type');
                             const component = _.upperFirst(_.camelCase(sectionType));
                             if (!component) {
