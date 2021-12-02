@@ -25,11 +25,7 @@ export default function PostLayout(props) {
                             {page.title && <h1 data-sb-field-path="title">{page.title}</h1>}
                             {page.author && postAuthor(page.author)}
                         </header>
-                        {page.markdown_content && (
-                            <Markdown options={{ forceBlock: true }} className="sb-markdown max-w-screen-md mx-auto" data-sb-field-path="markdown_content">
-                                {page.markdown_content}
-                            </Markdown>
-                        )}
+
                     </div>
                 </article>
                 {sections.length > 0 && (
