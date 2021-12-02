@@ -2,7 +2,7 @@ import * as React from 'react';
 import dayjs from 'dayjs';
 import Markdown from 'markdown-to-jsx';
 import { getBaseLayoutComponent } from '@stackbit/components/dist/utils/base-layout';
-import { getComponent } from '@stackbit/components/src/components-registry';
+import { getComponent } from '@stackbit/components';
 
 export default function ProjectLayout(props) {
     const { page, site } = props;
