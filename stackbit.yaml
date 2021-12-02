@@ -33,7 +33,7 @@ models:
     urlPath: '/projects/{slug}'
     label: Project
     layout: project
-    folder: portfolio
+    folder: projects
     hideContent: true
     fields:
       - type: string
