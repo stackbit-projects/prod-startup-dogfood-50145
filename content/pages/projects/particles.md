@@ -67,5 +67,5 @@ seo:
     - name: 'twitter:image'
       value: images/work-magazine-1.jpg
       relativeUrl: true
-layout: project
+layout: ProjectLayout
 ---
