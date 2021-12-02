@@ -10,7 +10,7 @@ export default class TextSection extends React.Component {
 
         return (
             <div className="text-block container container--md">
-                <Markdown options={{ forceBlock: true }} className="sb-markdown max-w-screen-md mx-auto" data-sb-field-path="markdown_content">
+                <Markdown options={{ forceBlock: true }} className="sb-markdown max-w-screen-md mx-auto" data-sb-field-path="content">
                     {content}
                 </Markdown>
             </div>
