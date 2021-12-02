@@ -28,7 +28,6 @@ contentModels:
   Person:
     newFilePath: 'team/{slug}.json'
 models:
-  project:
   image_section:
     type: object
     label: Image Section
