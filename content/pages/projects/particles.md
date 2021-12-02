@@ -2,8 +2,10 @@
 title: Particle Effects
 subtitle: Particle engine implemented in Javascript
 date: '2021-01-10'
-thumb_image: /images/Screen Shot 2021-06-15 at 22.03.35.png
-thumb_image_alt: Particle Physics
+featuredImage:
+  type: ImageBlock
+  url: /images/post-6.jpg
+  altText: Post Image
 sections:
   - options:
       demo_configuration: '{"particle_count": 50}'
