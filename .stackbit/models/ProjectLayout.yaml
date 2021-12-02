@@ -1,11 +1,12 @@
-
-hideContent: true
+type: page
 name: ProjectLayout
 label: Project
 layout: ProjectLayout
 thumbnail: https://assets.stackbit.com/components/models/thumbnails/default.png
 folder: projects
 urlPath: '/projects/{slug}'
+
+hideContent: true
 fields:
   - type: string
     name: title
