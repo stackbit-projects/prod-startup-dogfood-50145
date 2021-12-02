@@ -27,6 +27,7 @@ contentModels:
     newFilePath: 'projects/{slug}.md'
   Person:
     newFilePath: 'team/{slug}.json'
+models:
   project:
     type: page
     urlPath: '/portfolio/{slug}'
