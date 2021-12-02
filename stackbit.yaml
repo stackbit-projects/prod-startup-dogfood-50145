@@ -54,11 +54,5 @@ models:
         default: regular
         required: true
   text_section:
-    type: object
-    label: Text Section
-    fields:
-      - type: markdown
-        name: content
-        label: Content
-        description: The text content of the section
+
   canvas_section:
