@@ -28,8 +28,8 @@
         "sourcebit-source-filesystem": "^0.1.6",
         "sourcebit-target-next": "^0.7.1",
         "tailwindcss": "^2.2.4",
-    "@rodikh/particle-lines": "^1.0.3",
-    "@rodikh/particles": "^0.1.6"
+        "@rodikh/particle-lines": "^1.0.3",
+        "@rodikh/particles": "^0.1.6"
     },
     "devDependencies": {
         "@next/bundle-analyzer": "^11.1.2",
