@@ -54,7 +54,7 @@ sections:
   - elementId: ''
     variant: variant-b
     colors: colors-c
-    title: Featured
+    title: Experiments and projects
     subtitle: Featured blog posts section example
     actions:
       - type: Button
