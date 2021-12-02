@@ -45,7 +45,7 @@
     },
     "fontBody": "sans",
     "main": "#282828",
-    "light": "#ffffff",
+    "light": "#000000",
     "onLight": "#000000",
     "dark": "#282828",
     "onDark": "#ffffff",
