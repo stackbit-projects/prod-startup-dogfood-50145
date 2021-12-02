@@ -2,12 +2,12 @@ type: page
 urlPath: '/projects/{slug}'
 label: Project
 layout: project
-folder: projects
 hideContent: true
 name: ProjectLayout
 label: Project
 layout: ProjectLayout
 thumbnail: https://assets.stackbit.com/components/models/thumbnails/default.png
+folder: projects
 fields:
   - type: string
     name: title
