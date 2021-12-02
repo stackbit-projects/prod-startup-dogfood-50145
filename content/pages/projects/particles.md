@@ -47,7 +47,7 @@ seo:
   extra:
     - name: 'og:type'
       value: website
-      keyName: property 
+      keyName: property
     - name: 'og:title'
       value: Nature Magazine
       keyName: property
