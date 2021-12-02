@@ -25,7 +25,7 @@ export default function ProjectLayout(props) {
                             {page.title && <h1 data-sb-field-path="title">{page.title}</h1>}
                             {page.author && postAuthor(page.author)}
                         </header>
-                                                {sections.map((section, index) => {
+                        {sections.map((section, index) => {
                             const Component = getComponent(section.type);
                             if (!Component) {
                                 throw new Error(`no component matching the page section's type: ${section.type}`);
