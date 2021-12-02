@@ -52,7 +52,7 @@ sections:
       actions:
         justifyContent: flex-start
   - elementId: ''
-    colors: colors-f
+    colors: colors-c
     title: Love where you work
     subtitle: ''
     text: >-
