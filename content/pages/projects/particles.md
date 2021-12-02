@@ -21,9 +21,9 @@ sections:
       datastructures for more performant collision detection.
   - options:
       demo_configuration: '{}'
-    type: canvas_section
+    type: CanvasSection
     demo_type: particles
-  - type: text_section
+  - type: TextSection
     content: >-
       Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit
       accumsan sapien blandit ac amet faucibus aliquet placerat commodo.
@@ -36,11 +36,11 @@ sections:
   - options:
       demo_configuration: '{}'
     demo_type: forces
-    type: canvas_section
+    type: CanvasSection
   - options:
       demo_configuration: '{}'
     demo_type: quadtree
-    type: canvas_section
+    type: CanvasSection
 seo:
   title: Nature Magazine
   description: This is the sample project description
