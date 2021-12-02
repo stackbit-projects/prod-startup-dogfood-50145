@@ -5,7 +5,6 @@ layout: ProjectLayout
 thumbnail: https://assets.stackbit.com/components/models/thumbnails/default.png
 folder: projects
 urlPath: '/projects/{slug}'
-
 hideContent: true
 fields:
   - type: string
