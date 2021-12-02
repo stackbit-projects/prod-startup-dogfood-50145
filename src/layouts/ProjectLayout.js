@@ -32,7 +32,7 @@ export default function ProjectLayout(props) {
                             }
                             return (
                                 <div key={index} data-sb-field-path={`sections.${index}`}>
-                                    <Component {...section} />
+                                    <Component {...section} section={section} data={data}  />
                                 </div>
                             );
                         })}
