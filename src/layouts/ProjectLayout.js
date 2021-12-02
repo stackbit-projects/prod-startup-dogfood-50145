@@ -26,6 +26,7 @@ export default function ProjectLayout(props) {
                             {page.author && postAuthor(page.author)}
                         </header>
                         {page.sections.map((section, index) => {
+                            console.log("sections::", page.section)
                             const Component = getComponent(section.type);
                             if (!Component) {
                                 throw new Error(`no component matching the page section's type: ${section.type}`);
