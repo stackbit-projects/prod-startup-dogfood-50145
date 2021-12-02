@@ -11,7 +11,7 @@ sections:
       demo_configuration: '{"particle_count": 50}'
     type: CanvasSection
     demo_type: particle-lines
-  - type: text_section
+  - type: TextSection
     content: >
       Particle lines is a particle simulation that uses collision detection to
       draw lines between nearby points.
