@@ -7,7 +7,7 @@ import { getComponent } from '../../components-registry';
 export default function ProjectLayout(props) {
     const { page, site } = props;
     const BaseLayout = getBaseLayoutComponent(page.baseLayout, site.baseLayout);
-    const sections = page.bottomSections || [];
+    const sections = page.sections || [];
     const dateTimeAttr = dayjs(page.date).format('YYYY-MM-DD HH:mm:ss');
     const formattedDate = dayjs(page.date).format('MMMM D, YYYY');
 
