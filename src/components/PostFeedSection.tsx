@@ -4,7 +4,7 @@ import dayjs from 'dayjs';
 import { getComponent } from '@stackbit/components';
 import { mapStylesToClassNames as mapStyles } from '@stackbit/components/dist/utils/map-styles-to-class-names';
 import getPageUrlPath from '../../utils/get-page-url-path';
-import Link from '../../utils/link';
+import Link from '@stackbit/components/dist/utils/link';
 
 export default function PostFeedSection(props) {
     const cssId = props.elementId || null;
