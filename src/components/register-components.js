@@ -17,6 +17,7 @@ registerComponents({
     CanvasSection: CanvasSection,
     TextSection: TextSection,
     ImageSection: ImageSection,
+    PostFeedSection: PostFeedSection
 });
 
 /**
