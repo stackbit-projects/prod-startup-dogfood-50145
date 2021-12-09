@@ -1,0 +1,113 @@
+type: object
+name: PostFeedSection
+label: Post feed
+labelField: title
+extends:
+  - Section
+groups:
+  - sectionComponent
+fieldGroups:
+  - name: styles
+    label: Styles
+  - name: settings
+    label: Settings
+fields:
+  - type: enum
+    name: variant
+    group: styles
+    label: Arrangement
+    options:
+      - label: Three columns grid
+        value: variant-a
+      - label: List
+        value: variant-b
+    default: variant-a
+  - name: colors
+    default: colors-h
+  - type: string
+    name: title
+    label: Title
+    default: Latest news
+  - type: string
+    name: subtitle
+    label: Subtitle
+    default: Latest blog posts section example
+  - type: list
+    name: actions
+    label: Actions
+    items:
+      type: model
+      models:
+        - Button
+        - Link
+    default:
+      - type: Button
+        label: View all
+        url: '/'
+        style: primary
+  - type: boolean
+    name: showRecent
+    label: Show recent posts only
+    description: Show the specified number of recent posts
+    default: false
+  - type: number
+    name: recentCount
+    label: Number of recent posts to show
+    default: 6
+  - type: style
+    name: styles
+    styles:
+      self:
+        height: ['auto', 'screen']
+        width: ['narrow', 'wide', 'full']
+        margin: ['tw0:36']
+        padding: ['tw4:36']
+        justifyContent: ['flex-start', 'flex-end', 'center']
+        borderRadius: '*'
+        borderWidth: ['0:8']
+        borderStyle: '*'
+        borderColor:
+          - value: 'border-primary'
+            label: 'Primary color'
+            color: '$primary'
+          - value: 'border-secondary'
+            label: 'Secondary color'
+            color: '$secondary'
+          - value: 'border-dark'
+            label: 'Dark color'
+            color: '$dark'
+          - value: 'border-complementary'
+            label: 'Complementary color'
+            color: '$complementary'
+          - value: 'border-complementary-alt'
+            label: 'Complementary alt color'
+            color: '$complementaryAlt'
+      title:
+        fontWeight: ['400', '700']
+        fontStyle: ['normal', 'italic']
+        textAlign: ['left', 'center', 'right']
+      subtitle:
+        fontWeight: ['400', '700']
+        fontStyle: ['normal', 'italic']
+        textAlign: ['left', 'center', 'right']
+      actions:
+        justifyContent: ['flex-start', 'flex-end', 'center']
+    default:
+      self:
+        height: auto
+        width: wide
+        margin: ['mt-0', 'mb-0', 'ml-0', 'mr-0']
+        padding: ['pt-12', 'pb-12', 'pl-4', 'pr-4']
+        justifyContent: center
+        borderRadius: none
+        borderWidth: 0
+        borderStyle: none
+        borderColor: border-dark
+      title:
+        textAlign: center
+      subtitle:
+        fontWeight: 400
+        fontStyle: normal
+        textAlign: center
+      actions:
+        justifyContent: center
