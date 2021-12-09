@@ -2,7 +2,7 @@ import * as React from 'react';
 import classNames from 'classnames';
 import dayjs from 'dayjs';
 import { getComponent } from '@stackbit/components';
-import { mapStylesToClassNames as mapStyles } from 'stackbit/components/dist/utils/map-styles-to-class-names';
+import { mapStylesToClassNames as mapStyles } from '@stackbit/components/dist/utils/map-styles-to-class-names';
 import getPageUrlPath from '../../utils/get-page-url-path';
 import Link from '../../utils/link';
 
