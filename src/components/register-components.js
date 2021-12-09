@@ -6,7 +6,7 @@ import ProjectLayout from '../layouts/ProjectLayout';
 import CanvasSection from './CanvasSection';
 import TextSection from './TextSection';
 import ImageSection from './ImageSection';
-import PostFeedSection from './PostFeedSection/index.tsx';
+import PostFeedSection from './PostFeedSection.tsx';
 
 registerComponents({
     // Register all Stackbit components
